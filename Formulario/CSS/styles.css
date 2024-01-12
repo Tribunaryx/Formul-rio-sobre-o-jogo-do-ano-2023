@@ -1,0 +1,146 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+/* page header */
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: rgba(185, 132, 17, 0.452);
+
+}
+
+.header h3 {
+    color: whitesmoke;
+    margin-top: none;
+}
+
+/* form container */
+
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* form header */
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: rgba(185, 132, 17, 0.452);
+    border-bottom: 2px solid rgba(185, 132, 17, 0.452);
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form body */
+
+.form-body {
+    padding: 30px;
+}
+
+.form-tittle {
+    margin-bottom: 15px;
+    color: rgba(185, 132, 17, 0.452);
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.block {
+    display: block;
+}
+
+.radio {
+    display: block;
+    padding: 15px 0;
+    margin: 0 30px 30px 0;
+}
+
+.box-input {
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.btn-submit{
+    background-color: rgba(185, 132, 17, 0.452);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-align: center;
+    border-bottom: 2px solid rgba(185, 132, 17, 0.452);
+    border-top: 2px solid rgba(185, 132, 17, 0.452);
+    border-left: 2px solid rgba(185, 132, 17, 0.452);
+    border-right: 2px solid rgba(185, 132, 17, 0.452);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    border-color: rgba(185, 132, 17, 0.452);
+    color: rgba(185, 132, 17, 0.452);
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  padding-top: 20px;
+  height: 1540px;
+}
